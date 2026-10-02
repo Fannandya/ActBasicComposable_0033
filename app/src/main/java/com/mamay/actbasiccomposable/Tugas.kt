@@ -69,7 +69,15 @@ fun LoginPage(modifier: Modifier){
                 top = 10.dp,
                 bottom = 10.dp
             )) {
-                Text(text = stringResource(id = R.string.label_usn))
+                Text(text = stringResource(id = R.string.label_usn),
+                    color = Color.White,
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(20.dp),
+                    textAlign = TextAlign.Center,
+                    )
             }
         }
     }
