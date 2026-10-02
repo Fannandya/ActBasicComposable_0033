@@ -32,5 +32,11 @@ fun LoginPage(modifier: Modifier){
             contentScale = ContentScale.FillBounds,
             modifier = Modifier.fillMaxSize()
         )
+        Column(modifier = Modifier.padding(
+            top = 86.dp,
+        )) {
+
+
+        }
     }
     }
