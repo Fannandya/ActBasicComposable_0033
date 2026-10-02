@@ -56,7 +56,14 @@ fun LoginPage(modifier: Modifier){
                 top = 10.dp,
                 bottom = 10.dp
             )) {
-
+                Image(
+                    painter = painterResource(id = R.drawable.bulet),
+                    contentDescription = "bulet",
+                    contentScale = ContentScale.FillWidth,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(20.dp)
+                )
             }
         }
     }
