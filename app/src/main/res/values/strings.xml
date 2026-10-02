@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ActBasicComposable</string>
     <string name="silahkanLogin">Silahkan Login</string>
+    <string name="selamatDatang">Selamat Datang</string>
 </resources>
