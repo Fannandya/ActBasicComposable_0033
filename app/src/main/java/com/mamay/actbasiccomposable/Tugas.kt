@@ -68,7 +68,9 @@ fun LoginPage(modifier: Modifier){
             Column(modifier = Modifier.padding(
                 top = 10.dp,
                 bottom = 10.dp
-            )) { }
+            )) {
+                Text(text = stringResource(id = R.string.label_usn))
+            }
         }
     }
     }
