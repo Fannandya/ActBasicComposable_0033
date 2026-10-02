@@ -45,6 +45,13 @@ fun LoginPage(modifier: Modifier){
                 textAlign = TextAlign.Center,
 
                 )
+            Text(text = stringResource(id = R.string.silahkanLogin),
+                color = Color.White,
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.fillMaxWidth(),
+                textAlign = TextAlign.Center
+            )
 
         }
     }
