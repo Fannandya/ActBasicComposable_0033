@@ -1,5 +1,6 @@
 package com.mamay.actbasiccomposable
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -14,15 +15,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.mamay.actbasiccomposable.ui.theme.ActBasicComposableTheme
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             ActBasicComposableTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    LoginPage(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                Scaffold() {
+                    LoginPage(modifier = Modifier)
                 }
             }
         }
