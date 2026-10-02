@@ -35,7 +35,16 @@ fun LoginPage(modifier: Modifier){
         Column(modifier = Modifier.padding(
             top = 86.dp,
         )) {
+            Text(text = stringResource(id = R.string.selamatDatang),
+                color = Color.White,
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(20.dp),
+                textAlign = TextAlign.Center,
 
+                )
 
         }
     }
