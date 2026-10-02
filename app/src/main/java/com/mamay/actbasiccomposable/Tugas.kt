@@ -65,6 +65,10 @@ fun LoginPage(modifier: Modifier){
                         .padding(20.dp)
                 )
             }
+            Column(modifier = Modifier.padding(
+                top = 10.dp,
+                bottom = 10.dp
+            )) { }
         }
     }
     }

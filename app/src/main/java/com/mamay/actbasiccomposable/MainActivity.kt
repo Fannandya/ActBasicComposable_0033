@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ActBasicComposableTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxRowColumn(
+                    LoginPage(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
