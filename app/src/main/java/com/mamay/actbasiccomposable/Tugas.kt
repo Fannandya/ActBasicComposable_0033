@@ -52,7 +52,12 @@ fun LoginPage(modifier: Modifier){
                 modifier = Modifier.fillMaxWidth(),
                 textAlign = TextAlign.Center
             )
+            Column(modifier = Modifier.padding(
+                top = 10.dp,
+                bottom = 10.dp
+            )) {
 
+            }
         }
     }
     }
