@@ -1,8 +1,7 @@
 # ActBasicComposable
 
 Tugas Praktikum PAM — pengenalan Basic Composable dengan Jetpack Compose.
-
-Aplikasi menampilkan layout dasar Compose seperti `Column`, `Text`, dan `Scaffold` (lihat `Tugas.kt`, `MainActivity.kt`).
-
+### Nama : Fannandya Sutan
+### NIM: 20240140033
 ![sshasil](app/src/main/res/drawable/sshasil.png)
-
+#### btw gambar animasi yang bawa tas backgroundnya transparan jadi seperti itu hasilnya
