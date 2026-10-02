@@ -1,0 +1,55 @@
+# --- Android / Gradle ---
+*.iml
+.gradle/
+/local.properties
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# --- Android Studio / IntelliJ ---
+/.idea/
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# --- Gradle wrapper (biarkan gradlew tetap terpush) ---
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- OS / macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Linux ---
+*~
+
+# --- Local config ---
+local.properties
+keystore.properties
+*.jks
+*.keystore
+google-services.json
